@@ -1,0 +1,123 @@
+
+
+    * {
+      font-family: "Abel";
+    }
+    body {
+      max-width: 1000px;
+      margin:auto;
+      padding: 50px;     
+      padding-bottom: 0px;
+    }      
+
+    #navbarMonstera {
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #navMid {
+      display:flex;
+      flex-direction: row;
+      column-gap: 80px;
+      align-items: center;
+    }
+
+    #navMid div:first-child h4::after {
+      content: '';
+      display:block;
+      width:38px;
+      height:2px;
+      background-color: #000;
+    }
+
+    #navEnd {
+      display: flex;
+      flex-direction: row;
+      column-gap: 20px;
+      align-items: center;
+    }
+    #navEnd img {
+
+      width:16px;
+    }
+
+
+
+    #midWholePart11 ul li #monstera   {
+      font-family: "Allerta";
+      position: absolute;
+      top:200px;
+      font-size: 90px;
+      font-weight: 900;
+    }
+
+    #midWholePart11 {
+      max-width:600px;
+      font-weight: bold;
+      margin-top:100px;
+    }
+
+    #midWholePart11 ul li::marker {     
+      font-size:24px;
+    }
+    #midWholePart11 ul {
+      padding-top:100px;
+    }
+    #midWholePart121 h1 {
+      background:#466d50;
+      display:inline-block;
+      padding:10px 40px;
+      border-radius: 40px;
+      color:#fff;        
+      margin-left:40px;
+    }
+
+    #midWholePart121 h1::after {
+      content: ' >';
+    }
+
+    #imgMain {        
+      position:absolute;
+      right:180px;
+      top:20%;
+      margin-bottom: 0px;
+      max-width:400px
+    }
+
+    #midWholePart13 {
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      max-width:600px;
+    }
+
+    .midWholePart13Parts {
+      display:flex;
+      flex-direction: row;
+      gap:5px;
+      margin-left:40px;
+    }
+
+    .midWholePart13Parts h4, .midWholePart13Parts p {
+      margin:2px;
+    }
+
+    .midWholePart13Parts p {
+      font-size:10px;
+      font-weight: 600;
+    }
+
+    #feeding {
+      width:60px;
+    }
+
+    #light {
+      width:30px;
+    }
+
+    #care {
+      width:40px;
+    }

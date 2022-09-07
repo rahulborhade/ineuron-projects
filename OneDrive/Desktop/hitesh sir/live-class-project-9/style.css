@@ -1,0 +1,243 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 0;
+  padding:0 0;
+}
+body{
+  background-color: #f5f5f5;
+}
+header{
+  height: 500px;
+  background-color: #3400ff;
+}
+nav{
+  float: right;
+  margin-right:40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.nav-item{
+  margin-right: 10px;
+  color: #FFFFFF;
+}
+.nav-item-active{
+  background-color: #FFFFFF;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 5px;
+  color: #5a31fc;
+  font-weight: 400;
+}
+.logo{
+  margin: 10px;
+}
+.header-text{
+  color: #FFFFFF;
+  margin-left: 60px;
+  float: left;
+  margin-top: 50px;
+}
+.header-text h2 {
+  font-size: 2.5rem;
+  margin-top: 5px;
+}
+
+.header-text p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header-image{
+  float: right;
+}
+.companies{
+  margin-top:20px;
+  margin-left: 30pxpx;
+}
+.company-items{
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  margin-left: 80px;
+}
+.api{
+  margin-left: 80px;
+  margin-top: 25px;
+}
+.cards{
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.card-active{
+  background-color: #FFFFFF;
+  padding: 40px 20px;
+  margin-right: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 16px rgba(49, 49, 49, 0.084);
+}
+
+.card{
+  width: 20%;
+  margin-left: 40px;
+}
+.card-head-active{
+  color: #5a31fc
+}
+.blog-heading{
+  margin-left: 80px;
+}
+.blog-cards{
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+}
+.blog-card{
+  width: 50%;
+  background-color: #FFFFFF;
+  margin-right: 30px;
+}
+.blog-image{
+  float: left;
+}
+.blog-content{
+  font-size: 20px;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+.blog-content h6{
+  color: #5a31fc
+}
+.faq-section{
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e9edfd;
+}
+.faq-content {
+  margin-left: 60px;
+  padding: 25px 10px;
+  padding: 40px 60px;
+}
+
+.faq-content h2 {
+  font-size: 2rem;
+}
+
+.faq-content h5 {
+  margin-top: 20px;
+}
+
+.faq-content h4 {
+  margin-top: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.faq-content button {
+  margin-top: 25px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5a31fc;
+  color: #fff;
+}
+
+.faq-image img {
+  width: 120%;
+  float: right;
+  height: fit-content;
+}
+.faq-image {
+  align-self: flex-end;
+}
+
+.download-section {
+  width: 100%;
+  float: left;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 60px;
+}
+
+.download-content h1{
+  font-weight: 900;
+} 
+.download-content {
+  width: 40%;
+  float: left;
+  margin-left: 60px;
+}
+
+.download-content h1 span{
+  font-weight: 300;
+}
+.download-email {
+  width: 50%;
+  float: left;
+  margin-left: 70px;
+  margin-top: -25px;
+}
+
+.download-email input {
+  width: 80%;
+  padding: 18px 25px;
+  background-color: #e9edff;
+  color: #000;
+  border: none;
+  border-radius: 28px;
+}
+.download-email button {
+  position: absolute;
+  left: 87.6%;
+  border-radius: 25px;
+  padding: 12px 35px;
+  top: 291.2%;
+  background-color: #5a31fc;
+  color: #fff;
+  border: none;
+}
+.footer-section{
+  display: flex;
+  padding: 40px 20px;
+  margin-top: 0px;
+  background-color: #5a31fc;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-left{
+  padding:60px 30px;
+}
+.list{
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.list-items{
+  text-decoration: none;
+  text-decoration-style: none;
+  margin-right: 40px;
+  border-right: solid #fff;
+  padding-right: 40px;
+}
+.footer-right{
+  /* padding:60px 30px; */
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+.logos-list{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+}
